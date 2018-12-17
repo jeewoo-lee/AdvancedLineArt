@@ -45,8 +45,8 @@ void drawMosaic (int widthSize, int heightSize, int pixelSize, String fileName) 
   int pictureSize = widthSize * heightSize -1;
   
   
-  for (int position = 0; position <= pictureSize; position += 50) {
-       for (int i = position; i > 0 ; i -= 9) {
+  for (int position = 0; position <= pictureSize; position += 1500) {
+       for (int i = position; i > 0 ; i -= 499) {
          // print("i is " + i + "\n");
     
           color c = (source.pixels[i]);
@@ -62,8 +62,8 @@ void drawMosaic (int widthSize, int heightSize, int pixelSize, String fileName) 
       }
   }
   
-    for (int position = 2493; position <= 2499; position += 3) {
-       for (int i = position; i > 0 ; i -= 9) {
+    for (int position = 248500; position <= 248999; position += 3) {
+       for (int i = position; i > 0 ; i -= 499) {
           //print("i is " + i + "\n");
     
           color c = (source.pixels[i]);

@@ -50,7 +50,7 @@ void drawMosaic (int widthSize, int heightSize, int pixelSize, String fileName) 
 
     float b = brightness(source.pixels[position]);
     
-    float size = map(b, 255, 0, 1, 6);
+    float size = map(b, 0, 255, 1, 6);
     color c = (source.pixels[position]);
  
     int x = position % width;  // remainder after integer division e.g.: 13 % 5 = 3 
