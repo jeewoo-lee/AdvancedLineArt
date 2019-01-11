@@ -5,7 +5,7 @@ void setup() {
   int widthSize = 1200;
   int heightSize = 630;
   size(1200, 630);
-  drawMosaic(widthSize, heightSize, 5, "seoul.JPG");
+  drawMosaic(widthSize, heightSize, 3, "seoul.JPG");
 
   
 }
